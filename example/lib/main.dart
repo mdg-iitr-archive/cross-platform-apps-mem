@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:plus_expanded_bottom_navigation_bar/plus_expanded_bottom_navigation_bar.dart";
 
 void main() => runApp(MyApp());
 
@@ -34,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      bottomNavigationBar: BottomNavigationBar(
+      bottomNavigationBar: PlusExpandedBottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
