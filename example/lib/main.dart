@@ -38,13 +38,13 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: PlusExpandedBottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
+          BottomNavigationBarItem(icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.business), title: Text('Business')),
+              icon: Icon(Icons.business)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.school), title: Text('School')),
+              icon: Icon(Icons.school)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.accessibility), title: Text('User')),
+              icon: Icon(Icons.accessibility)),
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
